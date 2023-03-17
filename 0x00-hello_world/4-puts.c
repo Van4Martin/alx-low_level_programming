@@ -2,7 +2,7 @@
 
 
 /*
- * main - Entry point
+ * main - Prints output using puts
  *
  * Return: Always 0 (Success)
  */
