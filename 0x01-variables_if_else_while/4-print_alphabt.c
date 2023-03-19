@@ -8,24 +8,13 @@
  */
 int main(void)
 {
-	int alpha1 = 'a';
-	int alpha2 = 'f';
-	int alpha3 = 'r';
+	int alpha = 'a';
 
-	while (alpha1 <= 'd')
+	while (alpha <= 'z')
 	{
-		putchar(alpha1);
-		alpha1++;
-	}
-	while (alpha2 <= 'p')
-	{
-		putchar(alpha2);
-		alpha2++;
-	}
-	while (alpha3 <= 'z')
-	{
-		putchar(alpha3);
-		alpha3++;
+		if (alpha != 'e' && alpha != 'q')
+		putchar(alpha);
+		alpha++;
 	}
 	putchar('\n');
 	return (0);
