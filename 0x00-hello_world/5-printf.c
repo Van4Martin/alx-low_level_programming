@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stderr>
 /**
  * main - Entry point
  *
@@ -7,10 +7,6 @@
  */
 int main(void)
 {
-<<<<<<< HEAD
-	fprintf(, "with proper grammer, but the outcome is a piece of art,\n");
-=======
-	printf("with proper grammer, but the outcome is a piece of art,\n");
->>>>>>> 0fadb4859c641edecdee2dc4cd33430b55a93a2e
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
