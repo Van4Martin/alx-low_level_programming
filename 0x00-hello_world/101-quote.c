@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <unistd.h>
 /**
 * main - Entry Point
 *
@@ -8,10 +8,6 @@
 */
 int main(void)
 {
-char s[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-
-{
-puts(s);
-}
+	write("and that piece of art is useful\" - Dora Korpar, 2015-10-19")
 return (1);
 }
