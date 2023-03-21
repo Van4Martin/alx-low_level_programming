@@ -6,15 +6,20 @@
  *
  * Return: Always 0 (Success)
  */
-void print_alphabet(void)
+int  main(void)
 {
-	int n = 'a';
-
-	while(n <= 'z')
+	void print_alphabet(void)
 	{
-		_putchar(n);
-		n++;
+		int n = 'a';
+
+		while(n <= 'z')
+		{
+			putchar(n);
+			n++;
+		}
+		putchar('\n');
+		return;
 	}
-	_putchar('\n');
+	print_alphabet();
 	return (0);
 }
