@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 
-/** _islower - Checks if a character is lower or otherwise
+/**
+ * _islower - Checks if a character is lower or otherwise
  *
  * Return: 1 (Success) 0 (Otherwise)
  */
