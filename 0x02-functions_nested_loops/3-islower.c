@@ -4,7 +4,7 @@
 /**
  * _islower - Checks if a character is lower or otherwise
  *@c: The character to check
- * Return: 1 (Success) 
+ * Return: 1 (Success)
  * otherwise, return 0
  */
 int _islower(int c)
