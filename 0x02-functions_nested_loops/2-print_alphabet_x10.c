@@ -6,15 +6,15 @@
 */
 void print_alphabet_x10(void)
 {
-	void n = print_alphabet();
+	int n;
 	int i = 0;
 	
 	while (i > 11)
 	{
-		_putchar(n);
+		_putchar(print_alphabet());
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
 
 	
