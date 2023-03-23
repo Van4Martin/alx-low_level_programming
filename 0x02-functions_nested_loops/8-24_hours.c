@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * jack_baur - Prints all the times of the day
+ * jack_bauer - Prints all the times of the day
  *
  * Return: Nothing
  */
