@@ -10,8 +10,8 @@
 int _strlen(char *s)
 {
 	int len;
-	 char s[];
 
+	s[];
 	len = *(s + 1);
 	return (len);
 }
