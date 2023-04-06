@@ -10,11 +10,13 @@
  */
 int _sqrt(int n, int start, int end)
 {
+	int mid;
 	if (start > end)
 	{
 		return (-1);
 	}
-	int mid = start + (end - start) / 2;
+
+	mid = start + (end - start) / 2;
 
 	if (mid * mid == n)
 	{
@@ -42,5 +44,6 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return (_sqrt_recursion(n, 0, n));
+		return (_sqrt(n, 0, n));
 	}
+}	
