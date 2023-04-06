@@ -8,9 +8,8 @@
  * Return: square root
  * -1 if root is not a real number
  */
-int _sqrt(int n, int start, int end)
+int _sqrt(int n, int start, int mid, int end)
 {
-	int mid;
 	if (start > end)
 	{
 		return (-1);
