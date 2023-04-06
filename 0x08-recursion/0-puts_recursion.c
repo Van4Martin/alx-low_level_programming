@@ -9,12 +9,12 @@
  */
 void _puts_recursion(char *s)
 {
-	// Base case:
+	/* Base case: */
 	if (*s == '\0')
 	{
 		return;
 	}
-	// Recursive case:
+	/* Recursive case: */
 	else
 	{
 		_putchar(*s);
