@@ -7,8 +7,7 @@
  * @argv: argument vector(strings passed to main from the command line)
  * Return: Always 0 (Sucess)
  */
-
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
@@ -17,4 +16,5 @@ void main(int argc, char *argv[])
 		printf("%s", argv[i]);
 	}
 	printf("\n");
+	return (0);
 }
