@@ -7,7 +7,7 @@
  * @argv: argument vector(strings passed to main from the command line)
  * Return: Always 0 (Sucess)
  */
-int main(int argc, char *argv[])
+int main(int argc  __attribute__((unused)), char *argv[])
 {
 	int i;
 
