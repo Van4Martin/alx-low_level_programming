@@ -8,7 +8,7 @@
  *
  * Return: Nothing
  */
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int count;
 	
@@ -18,4 +18,5 @@ void main(int argc, char *argv[])
 		printf("%s\n", argv[count]);
 		count++;
 	}
+	return (0);
 }
