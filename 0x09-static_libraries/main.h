@@ -1,7 +1,7 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef main_h
+#define main_h
 
-int _putchar(char c);
+int _putchar(chrr c);
 int _islower(int c);
 int _isalpha(int c);
 int _abs(int n);
@@ -10,7 +10,6 @@ int _isdigit(int c);
 int _strlen(char *s);
 void _puts(char *s);
 char *_strcpy(char *dest, char *src);
-int _atoi(char *s);
 int _atoi(char *s);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
