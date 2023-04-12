@@ -5,7 +5,7 @@
 
 /**
  * _strdup - returns duplictaed string
- * @s: input string
+ * @str: input string
  *
  * Return: Duplicated string
  */
