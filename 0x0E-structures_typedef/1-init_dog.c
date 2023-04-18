@@ -3,11 +3,11 @@
 #include "dog.h"
 
 /**
- * init_dog -
- * @d:
- * @name:
- * @age:
- * @owner:
+ * init_dog - Initailizes a dog
+ * @d: structure variable
+ * @name: name of the dog
+ * @age: dog's age
+ * @owner: dogs owner
  *
  * Return: Nothing
  */
