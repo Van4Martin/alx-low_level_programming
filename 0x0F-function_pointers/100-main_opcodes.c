@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
 *main - prints the opcodes
 *@argc: number of arguments given to the program
