@@ -1,23 +1,29 @@
-#include <stdio.h>
 #include "main.h"
-/** print_alphabet_x10 - Prints the alphabets to the standard out put 10 time
-*
-* Return: Always 0 (Success)
-*/
+
+/**
+ * print_alphabet_x10 - prints alphabets on the screen 10 times.
+ *
+ * Return: Nothing
+ *
+ */
 void print_alphabet_x10(void)
 {
-	int i = 'a';
-	
-	while (i > 'z')
+	int i = 0;
+	char a;
+
+	while (i <= 10)
 	{
-		_putchar(i);
+		a = 'a';
+		while (a <= 'z')
+		{
+			_putchar(a);
+			a++;
+		}
+
+		_putchar('\n');
 		i++;
 	}
-	_putchar('\n');
 }
 
-	
-	
-	
 
-	
+
