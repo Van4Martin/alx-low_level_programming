@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_node - adds new node at the begining of list
+ * add_node_end - adds new node at the begining of list
  * @head: to be defined
  * @str: to be difined;
  *
