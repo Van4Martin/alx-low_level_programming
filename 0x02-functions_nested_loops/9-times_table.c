@@ -28,7 +28,10 @@ void times_table(void)
 		_putchar('\n');
 	}
 }
-
+/**
+ * print_numbers - just that
+ *
+ * Return: noythidh
 void print_number(int n)
 {
 	if (n > 9)
