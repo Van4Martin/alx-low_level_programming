@@ -8,29 +8,24 @@
  */
 void jack_bauer(void)
 {
-	int a, b, c, d;
+	int hr, min;
+	char h1, h2, m1, m2;
 
-	for (a = 48; a <= 50; a++)
+	for (hr = 0; hr < 24; hr++)
 	{
-		for (b = 48; b <= 57; b++)
+		h1 = hr / 10 + '0';
+		h2 = hr % 10 + '0';
+		for (min = 0; min < 60; min++)
 		{
-			for (c = 48; c <= 53; c++)
-			{
-				for (d = 48; d <= 57; d++)
-				{
-					if (a >= 50 && b >= 51)
-					{
-						break;
-					}
-					_putchar(a);
-					_putchar(b);
-					_putchar(58);
-					_putchar(c);
-					_putchar(d);
-					_putchar('\n');
-				}
-			}
+			m1 = min / 10 + '0';
+			m2 = min % 10 + '0';
+
+			_putchar(h1);
+			_putchar(h2);
+			_putchar(':');
+			_putchar(m1);
+			_putchar(m2);
+			_putchar('\n');
 		}
 	}
 }
-
