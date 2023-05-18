@@ -5,6 +5,8 @@
 #include <stdio.h>
 #include <string.h>
 
+typedef unsigned long int uli;
+typedef unsigned int uni;
 
 int _putchar(char c);
 unsigned int binary_to_uint(const char *b);
