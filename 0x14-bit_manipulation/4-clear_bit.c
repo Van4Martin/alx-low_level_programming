@@ -17,5 +17,5 @@ int clear_bit(uli *n, uni  index)
 	}
 	check_bit = ~(1ul << index);
 	*n = *n & check_bit;
-	return 1;
+	return (1);
 }
